@@ -1,0 +1,26 @@
+{
+  "runs": [
+    {
+      "run_id": "run_20251124_143025_085b35e8",
+      "timestamp": "20251124_143025",
+      "framework": "evalscope",
+      "model": {
+        "name": "Qwen/Qwen2-7B-Instruct",
+        "type": "local"
+      },
+      "datasets": [
+        "mmlu",
+        "gsm8k"
+      ],
+      "overall_score": 0.685,
+      "num_samples": 20,
+      "start_time": "2025-11-24T14:30:25.123000Z",
+      "end_time": "2025-11-24T14:33:31.456000Z",
+      "duration_seconds": 186.333,
+      "status": "completed",
+      "tags": []
+    }
+  ],
+  "total": 1,
+  "last_updated": "2025-11-24T11:47:05.732720Z"
+}

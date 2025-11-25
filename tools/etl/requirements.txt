@@ -1,0 +1,8 @@
+# ETL Script Dependencies
+
+# Core
+PyYAML>=6.0
+
+# Future dependencies for other adapters:
+# pandas>=2.0.0  # For processing CSV/tabular data
+# numpy>=1.24.0  # For numerical operations

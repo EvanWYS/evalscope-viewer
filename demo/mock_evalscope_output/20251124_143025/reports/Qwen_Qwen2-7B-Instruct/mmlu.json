@@ -1,0 +1,84 @@
+{
+  "dataset_name": "mmlu",
+  "dataset_pretty_name": "MMLU (Massive Multitask Language Understanding)",
+  "score": 0.72,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "score": 0.72,
+      "macro_score": 0.71,
+      "num": 150,
+      "categories": [
+        {
+          "name": ["STEM"],
+          "score": 0.68,
+          "macro_score": 0.67,
+          "num": 60,
+          "subsets": [
+            {
+              "name": "Physics",
+              "score": 0.70,
+              "num": 20
+            },
+            {
+              "name": "Chemistry",
+              "score": 0.65,
+              "num": 20
+            },
+            {
+              "name": "Mathematics",
+              "score": 0.70,
+              "num": 20
+            }
+          ]
+        },
+        {
+          "name": ["Humanities"],
+          "score": 0.75,
+          "macro_score": 0.74,
+          "num": 45,
+          "subsets": [
+            {
+              "name": "History",
+              "score": 0.78,
+              "num": 15
+            },
+            {
+              "name": "Philosophy",
+              "score": 0.73,
+              "num": 15
+            },
+            {
+              "name": "Literature",
+              "score": 0.73,
+              "num": 15
+            }
+          ]
+        },
+        {
+          "name": ["Social Sciences"],
+          "score": 0.73,
+          "macro_score": 0.72,
+          "num": 45,
+          "subsets": [
+            {
+              "name": "Psychology",
+              "score": 0.75,
+              "num": 15
+            },
+            {
+              "name": "Economics",
+              "score": 0.70,
+              "num": 15
+            },
+            {
+              "name": "Sociology",
+              "score": 0.73,
+              "num": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "run_id": "run_20251124_143025_085b35e8",
+  "timestamp": "20251124_143025",
+  "framework": "evalscope",
+  "framework_version": "1.0.0",
+  "model": {
+    "name": "Qwen/Qwen2-7B-Instruct",
+    "revision": "master",
+    "type": "local",
+    "metadata": {
+      "do_sample": true,
+      "max_new_tokens": 512,
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "top_k": 50
+    }
+  },
+  "datasets": [
+    "mmlu",
+    "gsm8k"
+  ],
+  "config": {
+    "eval_batch_size": 4,
+    "seed": 42,
+    "limit": null,
+    "generation_config": {
+      "do_sample": true,
+      "max_new_tokens": 512,
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "top_k": 50
+    }
+  },
+  "start_time": "2025-11-24T14:30:25.123000Z",
+  "end_time": "2025-11-24T14:33:31.456000Z",
+  "duration_seconds": 186.333,
+  "status": "completed",
+  "tags": [],
+  "environment": {},
+  "schema_version": "1.0"
+}

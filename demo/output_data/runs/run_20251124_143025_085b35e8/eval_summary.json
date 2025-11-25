@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_20251124_143025_085b35e8",
+  "datasets": [
+    {
+      "dataset": "gsm8k",
+      "dataset_pretty_name": "GSM8K (Grade School Math 8K)",
+      "metrics": {
+        "accuracy": {
+          "score": 0.65,
+          "macro_score": 0.64,
+          "num_samples": 100
+        }
+      },
+      "overall_score": 0.65,
+      "categories": [
+        {
+          "name": [
+            "Difficulty",
+            "Easy"
+          ],
+          "score": 0.85,
+          "macro_score": 0.85,
+          "num_samples": 30,
+          "subsets": [
+            {
+              "name": "Single-step",
+              "score": 0.9,
+              "num": 15
+            },
+            {
+              "name": "Two-step",
+              "score": 0.8,
+              "num": 15
+            }
+          ]
+        },
+        {
+          "name": [
+            "Difficulty",
+            "Medium"
+          ],
+          "score": 0.68,
+          "macro_score": 0.67,
+          "num_samples": 40,
+          "subsets": [
+            {
+              "name": "Multi-step",
+              "score": 0.7,
+              "num": 20
+            },
+            {
+              "name": "Word problems",
+              "score": 0.65,
+              "num": 20
+            }
+          ]
+        },
+        {
+          "name": [
+            "Difficulty",
+            "Hard"
+          ],
+          "score": 0.43,
+          "macro_score": 0.42,
+          "num_samples": 30,
+          "subsets": [
+            {
+              "name": "Complex reasoning",
+              "score": 0.4,
+              "num": 15
+            },
+            {
+              "name": "Multiple concepts",
+              "score": 0.47,
+              "num": 15
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "dataset": "mmlu",
+      "dataset_pretty_name": "MMLU (Massive Multitask Language Understanding)",
+      "metrics": {
+        "accuracy": {
+          "score": 0.72,
+          "macro_score": 0.71,
+          "num_samples": 150
+        }
+      },
+      "overall_score": 0.72,
+      "categories": [
+        {
+          "name": [
+            "STEM"
+          ],
+          "score": 0.68,
+          "macro_score": 0.67,
+          "num_samples": 60,
+          "subsets": [
+            {
+              "name": "Physics",
+              "score": 0.7,
+              "num": 20
+            },
+            {
+              "name": "Chemistry",
+              "score": 0.65,
+              "num": 20
+            },
+            {
+              "name": "Mathematics",
+              "score": 0.7,
+              "num": 20
+            }
+          ]
+        },
+        {
+          "name": [
+            "Humanities"
+          ],
+          "score": 0.75,
+          "macro_score": 0.74,
+          "num_samples": 45,
+          "subsets": [
+            {
+              "name": "History",
+              "score": 0.78,
+              "num": 15
+            },
+            {
+              "name": "Philosophy",
+              "score": 0.73,
+              "num": 15
+            },
+            {
+              "name": "Literature",
+              "score": 0.73,
+              "num": 15
+            }
+          ]
+        },
+        {
+          "name": [
+            "Social Sciences"
+          ],
+          "score": 0.73,
+          "macro_score": 0.72,
+          "num_samples": 45,
+          "subsets": [
+            {
+              "name": "Psychology",
+              "score": 0.75,
+              "num": 15
+            },
+            {
+              "name": "Economics",
+              "score": 0.7,
+              "num": 15
+            },
+            {
+              "name": "Sociology",
+              "score": 0.73,
+              "num": 15
+            }
+          ]
+        }
+      ],
+      "metadata": {}
+    }
+  ],
+  "overall": {
+    "avg_score": 0.685,
+    "total_samples": 250
+  }
+}

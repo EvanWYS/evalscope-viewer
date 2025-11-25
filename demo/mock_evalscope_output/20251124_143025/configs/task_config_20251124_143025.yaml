@@ -1,0 +1,22 @@
+# EvalScope Task Configuration
+# Mock configuration for demo purposes
+
+model:
+  model_id: "Qwen/Qwen2-7B-Instruct"
+  model_revision: "master"
+  generation_config:
+    do_sample: true
+    max_new_tokens: 512
+    temperature: 0.7
+    top_p: 0.9
+    top_k: 50
+
+eval:
+  datasets:
+    - "mmlu"
+    - "gsm8k"
+  eval_batch_size: 4
+  seed: 42
+  limit: null
+
+eval_type: "local"
